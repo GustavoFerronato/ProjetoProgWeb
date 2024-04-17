@@ -1,0 +1,73 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cabecalho{
+    columns: 2;
+    background-color: khaki; 
+}
+
+.logo img{
+    height: 100px;
+    width: auto;
+    display: grid;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: khaki;
+    text-align: right;
+}
+
+li{
+    display: inline-flex;
+}
+
+li a, .titulo-smenu{
+    display: inline-block;
+    color: black;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+
+li a:hover, .submenu:hover .titulo-smenu{
+    background-color: brown;
+    color: white;
+}
+
+li.submenu{
+    display: inline-block;
+}
+
+.lista-itens{
+    display: none;
+    font: bolder;
+    position: absolute;
+    background-color: white;
+    min-width: fit-content;
+    box-shadow: 0px 8px 16px 0px gray;
+}
+
+.lista-itens a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.lista-itens a:hover{
+    background-color: brown;
+    color: white;
+}
+
+.submenu:hover .lista-itens{
+    display: block;
+}
