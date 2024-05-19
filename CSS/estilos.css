@@ -5,16 +5,17 @@ body{
 .cabecalho{
     columns: 2;
     background-color: khaki; 
+   
 }
 
 .logo img{
     height: 100px;
     width: auto;
     display: grid;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: auto;
 }
 
 ul{
@@ -32,9 +33,12 @@ li{
 
 li a, .titulo-smenu{
     display: inline-block;
-    color: black;
-    padding: 1px 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
     text-decoration: none;
+    
+      
+    
 }
 
 li a:hover, .submenu:hover .titulo-smenu{
@@ -71,3 +75,14 @@ li.submenu{
 .submenu:hover .lista-itens{
     display: block;
 }
+
+.corpo{
+    color: rgb(0, 0, 0);
+}
+
+.rodape{
+    background-color: rgb(240, 230, 140);
+    text-align: center;
+    font:caption;
+}
+
