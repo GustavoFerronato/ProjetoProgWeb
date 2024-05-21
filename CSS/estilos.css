@@ -86,3 +86,24 @@ li.submenu{
     font:caption;
 }
 
+.uma{
+
+    height: 350px;
+    width: auto;
+    
+}
+
+.fachada{
+    height: 350px;
+    width: auto;
+}
+
+.endereco{
+    height: auto;
+    width: auto;
+}
+
+.eventos{
+    height: 350px;
+    width: auto;
+}
